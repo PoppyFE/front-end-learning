@@ -22,7 +22,7 @@
 ​        容器默认存在两根轴：水平的主轴（ main axis）和垂直的交叉轴（ cross axis ）。主轴的开始位置（与边框的交叉点）叫做 main start，结束位置叫做 main end；交叉轴的开始位置叫做 cross start，结束位置叫做 cross end。项目默认沿主轴排列。
 
 ##### Flex 兼容性
-<img src="./flex-compatibility.png" width="600" height="">
+<img src="./assets/flex-compatibility.png" width="600" height="">
 
 ##### Flex 容器的属性
 
