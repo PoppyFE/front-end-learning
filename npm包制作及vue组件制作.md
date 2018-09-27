@@ -2,6 +2,13 @@
 
 # npm 包制作
 
+`1.node环境import/require('XX')的包名都是从node_modules内部查找而来`
+`2.package.json及npm i XX 是从远程拉取代码到node_modules文件夹内`
+`3.node环境引用import XX from 'XX'和引用相对路径文件都是正常引用`
+`4.node使用commonjs规范，module.exports = XX , require('XX')暴露。`
+`5.因此正常写好符合commonjs规范的代码，用package.json的main暴露，即可。`
+`6.之后代码推送到远程仓库或者发布到npmjs`
+
 #### 目录结构
 
 - node_modules
